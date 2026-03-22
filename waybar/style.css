@@ -1,0 +1,108 @@
+@import url("colors/catppuccin.css");
+
+* {
+    border: none;
+    border-radius: 0;
+
+    font-family: "Adwaita Sans", "JetBrainsMono Nerd Font Propo", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+tooltip {
+    background: @base;
+    border: 1px solid @crust;
+    border-radius: 12px;
+}
+
+tooltip label {
+    color: @text;
+    padding: 6px;
+}
+
+#workspaces {
+    background-color: @base;
+    padding: 5px 3px;
+    margin: 0 0 0 12px;
+    border-radius: 18px;
+    border: 1px solid @crust;
+    color: @text;
+}
+
+#workspaces button {
+    padding: 0px 6px;
+    margin: 0px 3px;
+    border-radius: 50px;
+    color: transparent;
+    background-color: @crust;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active {
+    background-color: #f5b1e5;
+    color: @crust;
+    min-width: 50px;
+    transition: all 0.3s ease-in-out;
+    font-size: 13px;
+}
+
+#workspaces button:hover {
+    background: @lavender;
+    color: @base;
+    border-radius: 16px;
+    min-width: 50px;
+    background-size: 400% 400%;
+    text-shadow: none;
+    box-shadow: none;
+    -gtk-icon-effect: none;
+}
+
+#workspaces button.urgent {
+    background-color: @red;
+    color: @base;
+    border-radius: 16px;
+    min-width: 50px;
+    transition: all 0.3s ease-in-out;
+    background-size: 400% 400%;
+}
+
+#battery,
+#pulseaudio,
+#network,
+#clock,
+#custom-notification {
+    background-color: @base;
+    padding: 0 15px 0 15px;
+    margin: 0 0 0 12px;
+    border-radius: 50px;
+    border: 1px solid @crust;
+}
+
+#clock {
+    color: @text;
+}
+
+#custom-notification {
+    color: @text;
+    margin: 0 12px;
+}
+
+#pulseaudio {
+    color: @text;
+}
+
+#network {
+    color: @text;
+}
+
+#battery {
+    color: @text;
+}
