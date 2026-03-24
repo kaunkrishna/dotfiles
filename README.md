@@ -1,11 +1,12 @@
 # KAUN's Dotfiles (Arch + Hyprland)
 
-Welcome to my personal slice of the Linux rice fields! 
-The rice is currently under construction.
+Welcome to my personal slice of the Arch Linux rice fields! 
+Making it worse before it gets better!
 
-This repository holds the blueprints to my daily-driver setup. I use **Arch Linux** (yes, I use Arch, btw) paired with the beautifully buttery **Hyprland** compositor. My goal here was simple: make a workflow that is lightning-fast, heavily keyboard-driven, and pretty enough to stare at all day. 
+This repository holds the blueprints to my daily-driver setup. I use **Arch Linux** (yes, I use Arch, btw) paired with the beautifully buttery **Hyprland** compositor. My goal here was simple: make a workflow that is lightning-fast, heavily keyboard-driven, pretty much minimal and easy to setup. 
 
 Feel free to poke around, steal some snippets for your own setup, or copy the whole thing!
+I did it too!
 
 ---
 
@@ -18,7 +19,6 @@ Before you blindly copy-paste these configs into your system (we have all been t
 * **App Launcher:** Rofi *(or Wofi)*
 * **Notification Daemon:** SwayNC *(or Dunst)*
 * **Wallpaper Manager:** swww *(or Hyprpaper)*
-* **Authentication Agent:** `polkit-gnome` *(so GUI apps can actually ask for sudo passwords)*
 * **Shell (Zsh/Bash):** I use Zsh btw!
 
 ---
@@ -26,10 +26,10 @@ Before you blindly copy-paste these configs into your system (we have all been t
 ## What's Customized? 
 Here is a breakdown of the apps and tools I've actually tweaked in this repo. You can find all of these inside the respective folders—just drop them into your `~/.config/` directory!
 
-* **Hyprland:** Custom keybinds, smart window rules, buttery animations, and (of course) default NumLock!
+* **Hyprland:** Custom keybinds, beautiful blur config, and (of course) default NumLock!
 * **Waybar:** Custom modules for workspaces and system stats, complete with sleek CSS styling.
-* **Kitty:** Typography settings, a custom color palette, and background opacity.
-* **Rofi:** Themed application launcher and custom power-menu scripts. **POWER-MENU IS NOT FULLY COMPLETED!**
+* **Kitty:** Typography settings, catppuccin color palette, and background opacity.
+* **Rofi:** Themed application launcher and custom power-menu. **POWER-MENU IS NOT FULLY COMPLETED!**
 
 ---
 
