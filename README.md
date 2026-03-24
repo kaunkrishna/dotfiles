@@ -9,7 +9,7 @@ Feel free to poke around, steal some snippets for your own setup, or copy the wh
 
 ---
 
-## Required Apps (The Engine)
+## Required Apps 
 Before you blindly copy-paste these configs into your system (we have all been there), make sure you have these core packages installed to make everything work smoothly.
 
 * **Window Manager:** [Hyprland](https://hyprland.org/)
@@ -23,7 +23,7 @@ Before you blindly copy-paste these configs into your system (we have all been t
 
 ---
 
-## What's Customized? (The Goodies)
+## What's Customized? 
 Here is a breakdown of the apps and tools I've actually tweaked in this repo. You can find all of these inside the respective folders—just drop them into your `~/.config/` directory!
 
 * **Hyprland:** Custom keybinds, smart window rules, buttery animations, and (of course) default NumLock!
