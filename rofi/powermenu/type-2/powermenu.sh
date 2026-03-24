@@ -17,7 +17,7 @@ host=`hostname`
 shutdown=''
 reboot=''
 lock=''
-# suspend=''
+suspend=''
 logout=''
 yes=''
 no=''
@@ -50,9 +50,8 @@ confirm_exit() {
 
 # Pass variables to rofi dmenu
 run_rofi() {
-	echo -e "$lock\n$logout\n$reboot\n$shutdown" | rofi_cmd
-	# original with suspend:
-	# echo -e "$lock\n$suspend\n$logout\n$reboot\n$shutdown" | rofi_cmd
+	echo -e "$lock\n$suspend\n$logout\n$reboot\n$shutdown" | rofi_cmd
+	# echo -e "$lock\n$logout\n$reboot\n$shutdown" | rofi_cmd
 }
 
 # Execute Command
@@ -63,10 +62,10 @@ run_cmd() {
 			systemctl poweroff
 		elif [[ $1 == '--reboot' ]]; then
 			systemctl reboot
-		# elif [[ $1 == '--suspend' ]]; then
-		# 	mpc -q pause
-		# 	amixer set Master mute
-		# 	systemctl suspend
+		elif [[ $1 == '--suspend' ]]; then
+			mpc -q pause
+			amixer set Master mute
+			systemctl suspend
 		elif [[ $1 == '--logout' ]]; then
 			if [[ "$DESKTOP_SESSION" == 'openbox' ]]; then
 				openbox --exit
@@ -89,17 +88,9 @@ run_cmd() {
 chosen="$(run_rofi)"
 case ${chosen} in
     $shutdown)
-        # original:
-        # run_cmd shutdown now
-
-        # fixed (with confirmation + no delay)
         run_cmd --shutdown
         ;;
     $reboot)
-        # original:
-        # run_cmd reboot now
-
-        # fixed (with confirmation + no delay)
         run_cmd --reboot
         ;;
     $lock)
@@ -107,14 +98,10 @@ case ${chosen} in
             hyprlock
         fi
         ;;
-    # $suspend)
-    #     run_cmd --suspend
-    #     ;;
+    $suspend)
+        run_cmd --suspend
+        ;;
     $logout)
-        # original broken:
-        # run_cmd command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit
-
-        # fixed (with confirmation)
         run_cmd --logout
         ;;
 esac
