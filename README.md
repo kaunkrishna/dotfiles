@@ -1,6 +1,7 @@
 # KAUN's Dotfiles (Arch + Hyprland)
 
 Welcome to my personal slice of the Linux rice fields! 
+The rice is currently under construction.
 
 This repository holds the blueprints to my daily-driver setup. I use **Arch Linux** (yes, I use Arch, btw) paired with the beautifully buttery **Hyprland** compositor. My goal here was simple: make a workflow that is lightning-fast, heavily keyboard-driven, and pretty enough to stare at all day. 
 
