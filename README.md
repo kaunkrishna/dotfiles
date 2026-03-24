@@ -19,7 +19,7 @@ Before you blindly copy-paste these configs into your system (we have all been t
 * **Notification Daemon:** SwayNC *(or Dunst)*
 * **Wallpaper Manager:** swww *(or Hyprpaper)*
 * **Authentication Agent:** `polkit-gnome` *(so GUI apps can actually ask for sudo passwords)*
-* **Shell (Zsh/Bash):** I use Zsh btw.
+* **Shell (Zsh/Bash):** I use Zsh btw!
 
 ---
 
