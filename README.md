@@ -15,7 +15,7 @@ Before you blindly copy-paste these configs into your system (we have all been t
 * **Window Manager:** [Hyprland](https://hyprland.org/)
 * **Terminal Emulator:** Kitty *(swap this if you use Alacritty/Foot)*
 * **Status Bar:** Waybar
-* **App Launcher:** Rofi-Wayland *(or Wofi)*
+* **App Launcher:** Rofi *(or Wofi)*
 * **Notification Daemon:** SwayNC *(or Dunst)*
 * **Wallpaper Manager:** swww *(or Hyprpaper)*
 * **Authentication Agent:** `polkit-gnome` *(so GUI apps can actually ask for sudo passwords)*
@@ -29,7 +29,7 @@ Here is a breakdown of the apps and tools I've actually tweaked in this repo. Yo
 * **Hyprland:** Custom keybinds, smart window rules, buttery animations, and (of course) default NumLock!
 * **Waybar:** Custom modules for workspaces and system stats, complete with sleek CSS styling.
 * **Kitty:** Typography settings, a custom color palette, and background opacity.
-* **Rofi:** Themed application launcher and custom power menu scripts. **POWER-MENU IS NOT FULLY COMPLETED!**
+* **Rofi:** Themed application launcher and custom power-menu scripts. **POWER-MENU IS NOT FULLY COMPLETED!**
 
 ---
 
