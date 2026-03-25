@@ -1,9 +1,7 @@
 /**
- *
  * Author : Aditya Shakya (adi1090x)
  * Github : @adi1090x
- * 
- * Rofi Theme File
+ * Rofi Theme File - Type-1 & Style-3
  * Rofi Version: 1.7.3
  **/
 
@@ -20,8 +18,8 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
-@import                          "shared/colors.rasi"
-@import                          "shared/fonts.rasi"
+@import                          "~/.config/rofi/shared/fonts.rasi"
+@import                          "~/.config/rofi/shared/catppuccin.rasi"
 
 * {
     border-colour:               var(selected);
@@ -159,7 +157,7 @@ listview {
     lines:                       6;
     cycle:                       true;
     dynamic:                     true;
-    scrollbar:                   false;
+    scrollbar:                   true;
     layout:                      vertical;
     reverse:                     false;
     fixed-height:                true;
@@ -176,10 +174,11 @@ listview {
     cursor:                      "default";
 }
 scrollbar {
-    handle-width:                5px ;
-    handle-color:                @handle-colour;
-    border-radius:               8px;
-    background-color:            @alternate-background;
+    handle-width:                4px ;
+    handle-color:                @overlay0;
+    handle-rounded-corners:      true;
+    border-radius:               10px;
+    background-color:            @mantle;
 }
 
 /*****----- Elements -----*****/
@@ -208,8 +207,8 @@ element normal.active {
     text-color:                  var(active-foreground);
 }
 element selected.normal {
-    background-color:            var(normal-foreground);
-    text-color:                  var(normal-background);
+    background-color:            var(pink);
+    text-color:                  var(crust);
 }
 element selected.urgent {
     background-color:            var(selected-urgent-background);
@@ -263,13 +262,13 @@ button {
     border:                      0px solid;
     border-radius:               4px;
     border-color:                @border-colour;
-    background-color:            @alternate-background;
+    background-color:            @mantle;
     text-color:                  inherit;
     cursor:                      pointer;
 }
 button selected {
-    background-color:            var(normal-foreground);
-    text-color:                  var(normal-background);
+    background-color:            var(foreground);
+    text-color:                  var(mantle);
 }
 
 /*****----- Message -----*****/

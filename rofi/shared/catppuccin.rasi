@@ -1,0 +1,15 @@
+* {
+    background:     #1e1e2e;
+    background-alt: #282839FF;
+    foreground:     #cdd6f4;
+    selected:       #89b4fa;
+    active:         #ABE9B3FF;
+    urgent:         #f38ba8;
+    pink:           #f5b1e5;
+    crust:          #11111b;
+    mantle:         #181825;
+    subtext1:       #bac2de;
+    subtext0:       #a6adc8;
+    overlay0:       #6c7086;
+}
+

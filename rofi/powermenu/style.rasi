@@ -1,9 +1,7 @@
 /**
- *
  * Author : Aditya Shakya (adi1090x)
  * Github : @adi1090x
- * 
- * Rofi Theme File
+ * Rofi Theme File - Type-2 & Style-8
  * Rofi Version: 1.7.3
  **/
 
@@ -13,8 +11,8 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
-@import                          "shared/colors.rasi"
-@import                          "shared/fonts.rasi"
+@import                          "~/.config/rofi/shared/fonts.rasi"
+@import                          "~/.config/rofi/shared/catppuccin.rasi"
 
 /*
 USE_BUTTONS=YES
@@ -94,7 +92,7 @@ prompt {
 message {
     enabled:                     true;
     margin:                      0px;
-    padding:                     15px;
+    padding:                     10px;
     border:                      0px solid;
     border-radius:               100%;
     border-color:                @selected;
@@ -109,6 +107,7 @@ textbox {
     placeholder-color:           @foreground;
     blink:                       true;
     markup:                      true;
+    font: "JetBrainsMono Nerd Font Propo Bold 10";
 }
 error-message {
     padding:                     12px;
@@ -151,7 +150,7 @@ element {
     padding:                     25px 10px;
     border:                      0px solid;
     border-radius:               100%;
-    border-color:                @selected;
+    border-color:                @pink;
     background-color:            @background-alt;
     text-color:                  @foreground;
     cursor:                      pointer;
@@ -165,6 +164,6 @@ element-text {
     horizontal-align:            0.5;
 }
 element selected.normal {
-    background-color:            var(selected);
+    background-color:            var(pink);
     text-color:                  var(background);
 }

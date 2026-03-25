@@ -2,12 +2,11 @@
 
 ## Author : Aditya Shakya (adi1090x)
 ## Github : @adi1090x
-#
 ## Rofi   : Power Menu
 
 # Current Theme
-dir="$HOME/.config/rofi/powermenu/type-2"
-theme='style-8'
+dir="$HOME/.config/rofi/powermenu/"
+theme='style'
 
 # CMDs
 uptime="`uptime -p | sed -e 's/up //g'`"
@@ -39,7 +38,7 @@ confirm_cmd() {
 		-theme-str 'textbox {horizontal-align: 0.5;}' \
 		-dmenu \
 		-p 'Confirmation' \
-		-mesg 'Are you Sure?' \
+		-mesg 'ARE YOU SURE?' \
 		-theme ${dir}/${theme}.rasi
 }
 
