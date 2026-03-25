@@ -20,6 +20,7 @@ Before you blindly copy-paste these configs into your system (we have all been t
 * **Notification Daemon:** SwayNC *(or Dunst)*
 * **Wallpaper Manager:** swww *(or Hyprpaper)*
 * **Shell (Zsh/Bash):** I use Zsh btw!
+* **For Clipboard:** wl-clipboard + cliphist + rofi (yeah rofi again!)
 
 ---
 
