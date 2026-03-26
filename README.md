@@ -10,7 +10,7 @@ I did it too!
 
 ---
 
-## Required Apps 
+## Required Packages
 Before you blindly copy-paste these configs into your system (we have all been there), make sure you have these core packages installed to make everything work smoothly.
 
 * **Window Manager:** [Hyprland](https://hyprland.org/)
@@ -20,7 +20,8 @@ Before you blindly copy-paste these configs into your system (we have all been t
 * **Notification Daemon:** SwayNC *(or Dunst)*
 * **Wallpaper Manager:** awww *(or Hyprpaper)*
 * **Shell (Zsh/Bash):** I use Zsh btw!
-* **For Clipboard:** wl-clipboard + cliphist + rofi (yeah rofi again!)
+* **For Clipboard:** wl-clipboard + cliphist + rofi (Yeah, rofi again!)
+* **Fonts:** Adwaita Sans and JetBrains Mono (Any nerd font is must for the icons)
 
 ---
 
