@@ -18,7 +18,7 @@ Before you blindly copy-paste these configs into your system (we have all been t
 * **Status Bar:** Waybar
 * **App Launcher:** Rofi *(or Wofi)*
 * **Notification Daemon:** SwayNC *(or Dunst)*
-* **Wallpaper Manager:** swww *(or Hyprpaper)*
+* **Wallpaper Manager:** awww *(or Hyprpaper)*
 * **Shell (Zsh/Bash):** I use Zsh btw!
 * **For Clipboard:** wl-clipboard + cliphist + rofi (yeah rofi again!)
 
