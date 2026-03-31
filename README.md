@@ -1,9 +1,7 @@
 # KAUN's Dotfiles (Arch + Hyprland)
-
-Welcome to my personal slice of the Arch Linux rice fields! 
 Making it worse before it gets better!
 
-This repository holds the blueprints to my daily-driver setup. I use **Arch Linux** (yes, I use Arch, btw) paired with the beautifully buttery **Hyprland** compositor.
+This repository holds my daily-driver setup. I use **Arch Linux** (yes, I use Arch, btw) paired with the beautifully buttery **Hyprland** compositor.
 
 ---
 
@@ -40,6 +38,3 @@ Here is a breakdown of the apps and tools I've actually tweaked in this repo. Yo
    ```
 2. **Back up your existing configs!** Seriously, don't overwrite your own stuff without a backup.
 3. Symlink or copy the folders you want from here into your `~/.config/` directory.
-
----
-*Built with Arch Linux.*
