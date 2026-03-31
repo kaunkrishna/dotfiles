@@ -14,14 +14,14 @@ I did it too!
 Before you blindly copy-paste these configs into your system (we have all been there), make sure you have these core packages installed to make everything work smoothly.
 
 * **Window Manager:** [Hyprland](https://hyprland.org/)
-* **Terminal Emulator:** Kitty *(swap this if you use Alacritty/Foot)*
+* **Terminal Emulator:** Kitty
 * **Status Bar:** Waybar
-* **App Launcher:** Rofi *(or Wofi)*
-* **Notification Daemon:** SwayNC *(or Dunst)*
-* **Wallpaper Manager:** awww *(or Hyprpaper)*
+* **App Launcher:** Rofi
+* **Notification Daemon:** SwayNC
+* **Wallpaper Manager:** awww *(New name for swwww)*
 * **Shell (Zsh/Bash):** I use Zsh btw!
-* **For Clipboard:** wl-clipboard + cliphist + Rofi (Yeah, rofi again!)
-* **Fonts:** Adwaita Sans and JetBrains Mono (Any nerd font is must for the icons)
+* **For Clipboard:** wl-clipboard + cliphist + Rofi *(Yeah, rofi again!)*
+* **Fonts:** Adwaita Sans and JetBrains Mono *(Any nerd font is must for the icons)*
 
 ---
 
@@ -31,7 +31,7 @@ Here is a breakdown of the apps and tools I've actually tweaked in this repo. Yo
 * **Hyprland:** Custom keybinds, beautiful blur config, and (of course) default NumLock!
 * **Waybar:** Custom modules for workspaces and system stats, complete with sleek CSS styling.
 * **Kitty:** Typography settings, catppuccin color palette, and background opacity.
-* **Rofi:** Themed application launcher and custom power-menu. **POWER-MENU IS NOT FULLY COMPLETED!**
+* **Rofi:** Themed application launcher and custom power-menu.
 
 ---
 
