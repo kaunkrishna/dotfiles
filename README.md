@@ -20,7 +20,7 @@ Before you blindly copy-paste these configs into your system (we have all been t
 * **Notification Daemon:** SwayNC *(or Dunst)*
 * **Wallpaper Manager:** awww *(or Hyprpaper)*
 * **Shell (Zsh/Bash):** I use Zsh btw!
-* **For Clipboard:** wl-clipboard + cliphist + rofi (Yeah, rofi again!)
+* **For Clipboard:** wl-clipboard + cliphist + Rofi (Yeah, rofi again!)
 * **Fonts:** Adwaita Sans and JetBrains Mono (Any nerd font is must for the icons)
 
 ---
