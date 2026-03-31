@@ -1,4 +1,5 @@
 # KAUN's Dotfiles (Arch + Hyprland)
+
 Making it worse before it gets better!
 
 This repository holds my daily-driver setup. I use **Arch Linux** (yes, I use Arch, btw) paired with the beautifully buttery **Hyprland** compositor.
