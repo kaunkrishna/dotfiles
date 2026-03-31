@@ -3,10 +3,7 @@
 Welcome to my personal slice of the Arch Linux rice fields! 
 Making it worse before it gets better!
 
-This repository holds the blueprints to my daily-driver setup. I use **Arch Linux** (yes, I use Arch, btw) paired with the beautifully buttery **Hyprland** compositor. My goal here was simple: make a workflow that is lightning-fast, heavily keyboard-driven, pretty much minimal and easy to setup. 
-
-Feel free to poke around, steal some snippets for your own setup, or copy the whole thing!
-I did it too!
+This repository holds the blueprints to my daily-driver setup. I use **Arch Linux** (yes, I use Arch, btw) paired with the beautifully buttery **Hyprland** compositor.
 
 ---
 
