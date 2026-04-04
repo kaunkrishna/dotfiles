@@ -67,16 +67,16 @@
 
 Make sure these are installed:
 
-* hyprland (window manager)
-* kitty (terminal emulator)
-* waybar (status bar)
-* rofi (application launcher)
-* swaync (notification daemon)
-* swww (wallpaper manager)
-* wl-clipboard (Wayland clipboard tools)
-* cliphist (clipboard history)
+* **Hyprland** (window manager)
+* **Kitty** (terminal emulator)
+* **Waybar** (status bar)
+* **Rofi** (application launcher)
+* **SwayNC** (notification daemon)
+* **awww** (wallpaper manager)
+* **wl-clipboard** (Wayland clipboard tools)
+* **cliphist** (clipboard history)
 
-```bash
+```bash id="s8k2qf"
 sudo pacman -S --needed hyprland kitty waybar rofi swaync swww wl-clipboard cliphist
 ```
 
@@ -84,10 +84,10 @@ sudo pacman -S --needed hyprland kitty waybar rofi swaync swww wl-clipboard clip
 
 ## Fonts
 
-* Adwaita Sans → system UI
-* JetBrains Mono Nerd Font → terminal + icons
+* **Adwaita Sans** → system UI
+* **JetBrains Mono Nerd Font** → terminal + icons
 
-```bash
+```bash id="x2m8dl"
 sudo pacman -S --needed ttf-jetbrains-mono ttf-adwaita
 ```
 
@@ -97,33 +97,31 @@ sudo pacman -S --needed ttf-jetbrains-mono ttf-adwaita
 
 ### 1. Clone
 
-```bash
+```bash id="m1p9zx"
 git clone https://github.com/kaunkrishna/dotfiles
 cd dotfiles
 ```
 
-### 2. Backup existing config
+### 2. Backup
 
-```bash
+```bash id="d2s7qp"
 mv ~/.config ~/.config-backup
 ```
 
 ### 3. Apply configs
 
-```bash
+```bash id="g7k3zn"
 cp -r * ~/.config/
 ```
 
 ### 4. Restart session
-
-Log out and log back in to apply changes.
 
 ---
 
 ## Notes
 
 * Built for Arch + Hyprland
-* May not work on other setups
+* May break on other setups
 * Read configs before using
 
 ---
