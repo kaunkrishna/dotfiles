@@ -35,7 +35,7 @@ Before you blindly copy-paste these configs into your system (we’ve all been t
 * **App Launcher:** Rofi  
 * **Notification Daemon:** SwayNC  
 * **Wallpaper Manager:** awww *(new name for swww)*  
-* **Shell:** Zsh (I use Zsh btw!)  
+* **Shell:** Zsh 
 * **Clipboard:** wl-clipboard + cliphist + Rofi  
 * **Fonts:** Adwaita Sans + JetBrains Mono *(Nerd Font recommended for icons)*  
 
