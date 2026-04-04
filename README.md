@@ -1,41 +1,59 @@
-# KAUN's Dotfiles (Arch + Hyprland)
+# 🧊 KAUN's Dotfiles (Arch + Hyprland)
 
-Making it worse before it gets better!
+> Making it worse before it gets better!
 
-This repository holds my daily-driver setup. I use **Arch Linux** (yes, I use Arch, btw) paired with the beautifully buttery **Hyprland** compositor.
+This repository holds my daily-driver setup. I use **Arch Linux** (yes, I use Arch, btw) paired with the beautifully smooth **Hyprland** compositor.
 
 ---
 
-## Required Packages
-Before you blindly copy-paste these configs into your system (we have all been there), make sure you have these core packages installed to make everything work smoothly.
+## 📸 Screenshots
+
+### 🖥️ Desktop
+![Desktop](images/desktop.png)
+
+### 🚀 Rofi Launcher
+![Launcher](images/launcher-rofi.png)
+
+### 🔒 Lockscreen (Hyprlock)
+![Lockscreen](images/lockscreen-hyprlock.png)
+
+### 🔔 Notifications (SwayNC)
+![Notifications](images/notifications-swaync.png)
+
+### ⏻ Power Menu
+![Powermenu](images/powermenu-rofi.png)
+
+---
+
+## ⚙️ Required Packages
+
+Before you blindly copy-paste these configs into your system (we’ve all been there), make sure you have these core packages installed:
 
 * **Window Manager:** [Hyprland](https://hyprland.org/)
-* **Terminal Emulator:** Kitty
-* **Status Bar:** Waybar
-* **App Launcher:** Rofi
-* **Notification Daemon:** SwayNC
-* **Wallpaper Manager:** awww *(New name for swwww)*
-* **Shell (Zsh/Bash):** I use Zsh btw!
-* **For Clipboard:** wl-clipboard + cliphist + Rofi *(Yeah, rofi again!)*
-* **Fonts:** Adwaita Sans and JetBrains Mono *(Any nerd font is must for the icons)*
+* **Terminal Emulator:** Kitty  
+* **Status Bar:** Waybar  
+* **App Launcher:** Rofi  
+* **Notification Daemon:** SwayNC  
+* **Wallpaper Manager:** awww *(new name for swww)*  
+* **Shell:** Zsh (I use Zsh btw!)  
+* **Clipboard:** wl-clipboard + cliphist + Rofi  
+* **Fonts:** Adwaita Sans + JetBrains Mono *(Nerd Font recommended for icons)*  
 
 ---
 
-## What's Customized? 
-Here is a breakdown of the apps and tools I've actually tweaked in this repo. You can find all of these inside the respective folders—just drop them into your `~/.config/` directory!
+## 🎨 What’s Customized?
 
-* **Hyprland:** Custom keybinds, beautiful blur config, and (of course) default NumLock!
-* **Waybar:** Custom modules for workspaces and system stats, complete with sleek CSS styling.
-* **Kitty:** Typography settings, catppuccin color palette, and background opacity.
-* **Rofi:** Themed application launcher and custom power-menu.
+Here’s what I’ve actually tweaked:
+
+* **Hyprland:** Keybinds, blur, animations, NumLock enabled  
+* **Waybar:** Custom modules + clean CSS styling  
+* **Kitty:** Catppuccin theme, fonts, opacity  
+* **Rofi:** Themed launcher + custom power menu  
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
-1. Clone this repository to your machine: 
+1. Clone the repo:
    ```bash
    git clone https://github.com/kaunkrishna/dotfiles
-   ```
-2. **Back up your existing configs!** Seriously, don't overwrite your own stuff without a backup.
-3. Symlink or copy the folders you want from here into your `~/.config/` directory.
