@@ -16,16 +16,12 @@
 
 ## Screenshots
 
-### Desktop / Launcher
+### Desktop / Launcher / Lockscreen / Notifications
 
 <p align="center">
   <img src="images/desktop.png" width="45%">
   <img src="images/launcher-rofi.gif" width="45%">
 </p>
-
----
-
-### Lockscreen / Notifications
 
 <p align="center">
   <img src="images/lockscreen-hyprlock.png" width="45%">
@@ -56,14 +52,13 @@
 
 ## Dependencies
 
-* hyprland
-* kitty
-* waybar
-* rofi
-* swaync
-* swww
-* wl-clipboard
-* cliphist
+Install everything with one command:
+
+```bash
+sudo pacman -S --needed hyprland kitty waybar rofi swaync swww wl-clipboard cliphist
+```
+
+> `--needed` ensures already installed packages are skipped (no reinstall)
 
 ---
 
@@ -74,8 +69,8 @@
 
 ### Install Fonts (Arch)
 
-```bash id="jiv2wb"
-sudo pacman -S ttf-jetbrains-mono ttf-adwaita
+```bash
+sudo pacman -S --needed ttf-jetbrains-mono ttf-adwaita
 ```
 
 ---
@@ -91,12 +86,28 @@ sudo pacman -S ttf-jetbrains-mono ttf-adwaita
 
 ## Installation
 
-```bash id="h9qj92"
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/kaunkrishna/dotfiles
 cd dotfiles
+```
+
+### 2. Backup your current config
+
+```bash
 mv ~/.config ~/.config-backup
+```
+
+### 3. Copy configs
+
+```bash
 cp -r * ~/.config/
 ```
+
+### 4. Restart your session
+
+Log out and log back in to apply changes.
 
 ---
 
