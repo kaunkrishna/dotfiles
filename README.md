@@ -17,29 +17,34 @@
 ## Styles
 
 <p align="center">
-  <b>Desktop</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Rofi Launcher</b>
+  <span style="display:inline-block; width:45%; text-align:center;">
+    <b>Desktop</b><br>
+    <img src="images/main-desktop.png" width="100%">
+  </span>
+
+  <span style="display:inline-block; width:45%; text-align:center;">
+    <b>Rofi Launcher</b><br>
+    <img src="images/rofi-launcher.png" width="100%">
+  </span>
 </p>
 
 <p align="center">
-  <img src="images/main-desktop.png" width="45%">
-  <img src="images/rofi-launcher.png" width="45%">
+  <span style="display:inline-block; width:45%; text-align:center;">
+    <b>Hyprlock Lockscreen</b><br>
+    <img src="images/hyprlock-lockscreen.png" width="100%">
+  </span>
+
+  <span style="display:inline-block; width:45%; text-align:center;">
+    <b>SwayNC Notifications</b><br>
+    <img src="images/swaync-notifications.png" width="100%">
+  </span>
 </p>
 
 <p align="center">
-  <b>Hyprlock Lockscreen</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>SwayNC Notifications</b>
-</p>
-
-<p align="center">
-  <img src="images/hyprlock-lockscreen.png" width="45%">
-  <img src="images/swaync-notifications.png" width="45%">
-</p>
-
-<p align="center">
-  <b>Rofi Powermenu</b>
-</p>
-
-<p align="center">
-  <img src="images/rofi-powermenu.png" width="45%">
+  <span style="display:inline-block; width:45%; text-align:center;">
+    <b>Rofi Powermenu</b><br>
+    <img src="images/rofi-powermenu.png" width="100%">
+  </span>
 </p>
 
 ---
