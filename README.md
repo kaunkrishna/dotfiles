@@ -9,6 +9,14 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/OS-Arch_Linux-blue?style=flat&logo=arch-linux">
+  <img src="https://img.shields.io/badge/WM-Hyprland-00bfff?style=flat">
+  <img src="https://img.shields.io/badge/Shell-Zsh-orange?style=flat">
+  <img src="https://img.shields.io/github/stars/kaunkrishna/dotfiles?style=flat">
+  <img src="https://img.shields.io/github/repo-size/kaunkrishna/dotfiles?style=flat">
+</p>
+
+<p align="center">
   <img src="images/desktop.png" width="80%">
 </p>
 
@@ -16,18 +24,34 @@
 
 ## 📸 Screenshots
 
-<p align="center">
-  <img src="images/desktop.png" width="45%">
-  <img src="images/launcher-rofi.png" width="45%">
-</p>
+### 🖥️ Desktop
 
 <p align="center">
-  <img src="images/lockscreen-hyprlock.png" width="45%">
-  <img src="images/notifications-swaync.png" width="45%">
+  <img src="images/desktop.png" width="80%">
 </p>
 
+### 🚀 Rofi Launcher
+
 <p align="center">
-  <img src="images/powermenu-rofi.png" width="45%">
+  <img src="images/launcher-rofi.png" width="80%">
+</p>
+
+### 🔒 Lockscreen (Hyprlock)
+
+<p align="center">
+  <img src="images/lockscreen-hyprlock.png" width="80%">
+</p>
+
+### 🔔 Notifications (SwayNC)
+
+<p align="center">
+  <img src="images/notifications-swaync.png" width="80%">
+</p>
+
+### ⏻ Power Menu
+
+<p align="center">
+  <img src="images/powermenu-rofi.png" width="80%">
 </p>
 
 ---
@@ -46,14 +70,12 @@
 
 ## ⚙️ Dependencies
 
-Make sure these are installed:
-
 * hyprland
 * kitty
 * waybar
 * rofi
 * swaync
-* swww (wallpapers)
+* swww
 * wl-clipboard
 * cliphist
 
@@ -83,22 +105,10 @@ sudo pacman -S ttf-jetbrains-mono ttf-adwaita
 
 ## 📦 Installation
 
-### 1. Clone the repo
-
 ```bash
 git clone https://github.com/kaunkrishna/dotfiles
 cd dotfiles
-```
-
-### 2. Backup your current config (important)
-
-```bash
 mv ~/.config ~/.config-backup
-```
-
-### 3. Copy configs
-
-```bash
 cp -r * ~/.config/
 ```
 
@@ -106,9 +116,9 @@ cp -r * ~/.config/
 
 ## ⚠️ Notes
 
-* This setup is built for **Arch + Hyprland**
-* Things may break on other setups
-* Read configs before using (don’t blindly paste)
+* Built for **Arch + Hyprland**
+* May break on other setups
+* Don’t blindly paste configs
 
 ---
 
@@ -118,7 +128,7 @@ If you like this setup:
 
 * Star the repo ⭐
 * Fork it
-* Or just steal what you like (that’s the point)
+* Customize it your way
 
 ---
 
