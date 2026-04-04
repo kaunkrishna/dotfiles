@@ -16,27 +16,30 @@
 
 ## Styles
 
-<p align="center"><b>Desktop</b></p>
+## Styles
+
 <p align="center">
-  <img src="images/main-desktop.png" width="45%">
+  <b>Desktop</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Rofi Launcher</b>
 </p>
 
-<p align="center"><b>Rofi Launcher</b></p>
 <p align="center">
+  <img src="images/main-desktop.png" width="45%">
   <img src="images/rofi-launcher.png" width="45%">
 </p>
 
-<p align="center"><b>Hyprlock Lockscreen</b></p>
 <p align="center">
-  <img src="images/hyprlock-lockscreen.png" width="45%">
+  <b>Hyprlock Lockscreen</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>SwayNC Notifications</b>
 </p>
 
-<p align="center"><b>SwayNC Notifications</b></p>
 <p align="center">
+  <img src="images/hyprlock-lockscreen.png" width="45%">
   <img src="images/swaync-notifications.png" width="45%">
 </p>
 
-<p align="center"><b>Rofi Powermenu</b></p>
+<p align="center">
+  <b>Rofi Powermenu</b>
+</p>
+
 <p align="center">
   <img src="images/rofi-powermenu.png" width="45%">
 </p>
