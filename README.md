@@ -1,4 +1,4 @@
-# 🧊 KAUN's Dotfiles
+# KAUN's Dotfiles
 
 <p align="center">
   <b>Arch Linux • Hyprland • Minimal Rice</b>
@@ -9,54 +9,40 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/OS-Arch_Linux-blue?style=flat&logo=arch-linux">
-  <img src="https://img.shields.io/badge/WM-Hyprland-00bfff?style=flat">
-  <img src="https://img.shields.io/badge/Shell-Zsh-orange?style=flat">
-  <img src="https://img.shields.io/github/stars/kaunkrishna/dotfiles?style=flat">
-  <img src="https://img.shields.io/github/repo-size/kaunkrishna/dotfiles?style=flat">
-</p>
-
-<p align="center">
   <img src="images/desktop.png" width="80%">
 </p>
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 🖥️ Desktop
-
-<p align="center">
-  <img src="images/desktop.png" width="80%">
-</p>
-
-### 🚀 Rofi Launcher
+### Desktop / Launcher
 
 <p align="center">
-  <img src="images/launcher-rofi.png" width="80%">
-</p>
-
-### 🔒 Lockscreen (Hyprlock)
-
-<p align="center">
-  <img src="images/lockscreen-hyprlock.png" width="80%">
-</p>
-
-### 🔔 Notifications (SwayNC)
-
-<p align="center">
-  <img src="images/notifications-swaync.png" width="80%">
-</p>
-
-### ⏻ Power Menu
-
-<p align="center">
-  <img src="images/powermenu-rofi.png" width="80%">
+  <img src="images/desktop.png" width="45%">
+  <img src="images/launcher-rofi.gif" width="45%">
 </p>
 
 ---
 
-## 🖥️ System Info
+### Lockscreen / Notifications
+
+<p align="center">
+  <img src="images/lockscreen-hyprlock.png" width="45%">
+  <img src="images/notifications-swaync.gif" width="45%">
+</p>
+
+---
+
+### Power Menu
+
+<p align="center">
+  <img src="images/powermenu-rofi.gif" width="45%">
+</p>
+
+---
+
+## System Info
 
 * **OS:** Arch Linux
 * **WM:** Hyprland
@@ -68,7 +54,7 @@
 
 ---
 
-## ⚙️ Dependencies
+## Dependencies
 
 * hyprland
 * kitty
@@ -81,31 +67,31 @@
 
 ---
 
-## 🔤 Fonts
+## Fonts
 
-* **Adwaita Sans** → system UI font
+* **Adwaita Sans** → system UI
 * **JetBrains Mono Nerd Font** → terminal + icons
 
 ### Install Fonts (Arch)
 
-```bash
+```bash id="jiv2wb"
 sudo pacman -S ttf-jetbrains-mono ttf-adwaita
 ```
 
 ---
 
-## 🎨 What's Customized
+## What's Customized
 
 * **Hyprland:** keybinds, blur, animations, numlock
-* **Waybar:** custom modules + clean CSS
+* **Waybar:** custom modules + CSS
 * **Kitty:** Catppuccin theme, fonts, opacity
-* **Rofi:** launcher + custom powermenu
+* **Rofi:** launcher + powermenu
 
 ---
 
-## 📦 Installation
+## Installation
 
-```bash
+```bash id="h9qj92"
 git clone https://github.com/kaunkrishna/dotfiles
 cd dotfiles
 mv ~/.config ~/.config-backup
@@ -114,23 +100,17 @@ cp -r * ~/.config/
 
 ---
 
-## ⚠️ Notes
+## Notes
 
-* Built for **Arch + Hyprland**
+* Built for Arch + Hyprland
 * May break on other setups
-* Don’t blindly paste configs
+* Read configs before using
 
 ---
 
-## ⭐ Support
+## Support
 
-If you like this setup:
-
-* Star the repo ⭐
-* Fork it
-* Customize it your way
-
----
+Star the repo if you like it ⭐
 
 <p align="center">
   <i>rice > everything</i>
