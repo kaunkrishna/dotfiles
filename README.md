@@ -9,31 +9,36 @@
 </p>
 
 <p align="center">
-  <img src="images/desktop.png" width="80%">
+  <img src="images/main-desktop.png" width="80%">
 </p>
 
 ---
 
-## Screenshots
+## Styles
 
-### Desktop / Launcher / Lockscreen / Notifications
-
+<p align="center"><b>Desktop</b></p>
 <p align="center">
-  <img src="images/desktop.png" width="45%">
-  <img src="images/launcher-rofi.gif" width="45%">
+  <img src="images/main-desktop.png" width="45%">
 </p>
 
+<p align="center"><b>Rofi Launcher</b></p>
 <p align="center">
-  <img src="images/lockscreen-hyprlock.png" width="45%">
-  <img src="images/notifications-swaync.gif" width="45%">
+  <img src="images/rofi-launcher.png" width="45%">
 </p>
 
----
-
-### Power Menu
-
+<p align="center"><b>Hyprlock Lockscreen</b></p>
 <p align="center">
-  <img src="images/powermenu-rofi.gif" width="45%">
+  <img src="images/hyprlock-lockscreen.png" width="45%">
+</p>
+
+<p align="center"><b>SwayNC Notifications</b></p>
+<p align="center">
+  <img src="images/swaync-notifications.png" width="45%">
+</p>
+
+<p align="center"><b>Rofi Powermenu</b></p>
+<p align="center">
+  <img src="images/rofi-powermenu.png" width="45%">
 </p>
 
 ---
@@ -52,22 +57,16 @@
 
 ## Dependencies
 
-Install everything with one command:
-
 ```bash
 sudo pacman -S --needed hyprland kitty waybar rofi swaync swww wl-clipboard cliphist
 ```
-
-> `--needed` ensures already installed packages are skipped (no reinstall)
 
 ---
 
 ## Fonts
 
-* **Adwaita Sans** → system UI
-* **JetBrains Mono Nerd Font** → terminal + icons
-
-### Install Fonts (Arch)
+* Adwaita Sans → system UI
+* JetBrains Mono Nerd Font → terminal + icons
 
 ```bash
 sudo pacman -S --needed ttf-jetbrains-mono ttf-adwaita
@@ -75,39 +74,28 @@ sudo pacman -S --needed ttf-jetbrains-mono ttf-adwaita
 
 ---
 
-## What's Customized
-
-* **Hyprland:** keybinds, blur, animations, numlock
-* **Waybar:** custom modules + CSS
-* **Kitty:** Catppuccin theme, fonts, opacity
-* **Rofi:** launcher + powermenu
-
----
-
 ## Installation
 
-### 1. Clone the repository
+### 1. Clone
 
 ```bash
 git clone https://github.com/kaunkrishna/dotfiles
 cd dotfiles
 ```
 
-### 2. Backup your current config
+### 2. Backup
 
 ```bash
 mv ~/.config ~/.config-backup
 ```
 
-### 3. Copy configs
+### 3. Apply configs
 
 ```bash
 cp -r * ~/.config/
 ```
 
-### 4. Restart your session
-
-Log out and log back in to apply changes.
+### 4. Restart session
 
 ---
 
