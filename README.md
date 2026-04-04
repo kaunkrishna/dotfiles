@@ -1,59 +1,127 @@
-# 🧊 KAUN's Dotfiles (Arch + Hyprland)
+# 🧊 KAUN's Dotfiles
 
-> Making it worse before it gets better!
+<p align="center">
+  <b>Arch Linux • Hyprland • Minimal Rice</b>
+</p>
 
-This repository holds my daily-driver setup. I use **Arch Linux** (yes, I use Arch, btw) paired with the beautifully smooth **Hyprland** compositor.
+<p align="center">
+  <i>Making it worse before it gets better.</i>
+</p>
+
+<p align="center">
+  <img src="images/desktop.png" width="80%">
+</p>
 
 ---
 
 ## 📸 Screenshots
 
-### 🖥️ Desktop
-![Desktop](images/desktop.png)
+<p align="center">
+  <img src="images/desktop.png" width="45%">
+  <img src="images/launcher-rofi.png" width="45%">
+</p>
 
-### 🚀 Rofi Launcher
-![Launcher](images/launcher-rofi.png)
+<p align="center">
+  <img src="images/lockscreen-hyprlock.png" width="45%">
+  <img src="images/notifications-swaync.png" width="45%">
+</p>
 
-### 🔒 Lockscreen (Hyprlock)
-![Lockscreen](images/lockscreen-hyprlock.png)
-
-### 🔔 Notifications (SwayNC)
-![Notifications](images/notifications-swaync.png)
-
-### ⏻ Power Menu
-![Powermenu](images/powermenu-rofi.png)
-
----
-
-## ⚙️ Required Packages
-
-Before you blindly copy-paste these configs into your system (we’ve all been there), make sure you have these core packages installed:
-
-* **Window Manager:** [Hyprland](https://hyprland.org/)
-* **Terminal Emulator:** Kitty  
-* **Status Bar:** Waybar  
-* **App Launcher:** Rofi  
-* **Notification Daemon:** SwayNC  
-* **Wallpaper Manager:** awww *(new name for swww)*  
-* **Shell:** Zsh 
-* **Clipboard:** wl-clipboard + cliphist + Rofi  
-* **Fonts:** Adwaita Sans + JetBrains Mono *(Nerd Font recommended for icons)*  
+<p align="center">
+  <img src="images/powermenu-rofi.png" width="45%">
+</p>
 
 ---
 
-## 🎨 What’s Customized?
+## 🖥️ System Info
 
-Here’s what I’ve actually tweaked:
-
-* **Hyprland:** Keybinds, blur, animations, NumLock enabled  
-* **Waybar:** Custom modules + clean CSS styling  
-* **Kitty:** Catppuccin theme, fonts, opacity  
-* **Rofi:** Themed launcher + custom power menu  
+* **OS:** Arch Linux
+* **WM:** Hyprland
+* **Terminal:** Kitty
+* **Shell:** Zsh
+* **Bar:** Waybar
+* **Launcher:** Rofi
+* **Notifications:** SwayNC
 
 ---
 
-## 🚀 Quick Start
+## ⚙️ Dependencies
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/kaunkrishna/dotfiles
+Make sure these are installed:
+
+* hyprland
+* kitty
+* waybar
+* rofi
+* swaync
+* swww (wallpapers)
+* wl-clipboard
+* cliphist
+
+---
+
+## 🔤 Fonts
+
+* **Adwaita Sans** → system UI font
+* **JetBrains Mono Nerd Font** → terminal + icons
+
+### Install Fonts (Arch)
+
+```bash
+sudo pacman -S ttf-jetbrains-mono ttf-adwaita
+```
+
+---
+
+## 🎨 What's Customized
+
+* **Hyprland:** keybinds, blur, animations, numlock
+* **Waybar:** custom modules + clean CSS
+* **Kitty:** Catppuccin theme, fonts, opacity
+* **Rofi:** launcher + custom powermenu
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/kaunkrishna/dotfiles
+cd dotfiles
+```
+
+### 2. Backup your current config (important)
+
+```bash
+mv ~/.config ~/.config-backup
+```
+
+### 3. Copy configs
+
+```bash
+cp -r * ~/.config/
+```
+
+---
+
+## ⚠️ Notes
+
+* This setup is built for **Arch + Hyprland**
+* Things may break on other setups
+* Read configs before using (don’t blindly paste)
+
+---
+
+## ⭐ Support
+
+If you like this setup:
+
+* Star the repo ⭐
+* Fork it
+* Or just steal what you like (that’s the point)
+
+---
+
+<p align="center">
+  <i>rice > everything</i>
+</p>
