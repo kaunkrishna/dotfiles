@@ -65,6 +65,17 @@
 
 ## Dependencies
 
+Make sure these are installed:
+
+* hyprland (window manager)
+* kitty (terminal emulator)
+* waybar (status bar)
+* rofi (application launcher)
+* swaync (notification daemon)
+* swww (wallpaper manager)
+* wl-clipboard (Wayland clipboard tools)
+* cliphist (clipboard history)
+
 ```bash
 sudo pacman -S --needed hyprland kitty waybar rofi swaync swww wl-clipboard cliphist
 ```
@@ -91,7 +102,7 @@ git clone https://github.com/kaunkrishna/dotfiles
 cd dotfiles
 ```
 
-### 2. Backup
+### 2. Backup existing config
 
 ```bash
 mv ~/.config ~/.config-backup
@@ -105,12 +116,14 @@ cp -r * ~/.config/
 
 ### 4. Restart session
 
+Log out and log back in to apply changes.
+
 ---
 
 ## Notes
 
 * Built for Arch + Hyprland
-* May break on other setups
+* May not work on other setups
 * Read configs before using
 
 ---
