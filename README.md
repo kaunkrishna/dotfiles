@@ -19,31 +19,31 @@
 <table align="center">
 <tr>
 <td align="center" width="50%">
-<b>Desktop</b><br>
+<b>Desktop</b><br><br>
 <img src="images/main-desktop.png">
 </td>
 
 <td align="center" width="50%">
-<b>Rofi Launcher</b><br>
+<b>Rofi Launcher</b><br><br>
 <img src="images/rofi-launcher.png">
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<b>Hyprlock Lockscreen</b><br>
+<b>Hyprlock Lockscreen</b><br><br>
 <img src="images/hyprlock-lockscreen.png">
 </td>
 
 <td align="center">
-<b>SwayNC Notifications</b><br>
+<b>SwayNC Notifications</b><br><br>
 <img src="images/swaync-notifications.png">
 </td>
 </tr>
 
 <tr>
 <td align="center" colspan="2">
-<b>Rofi Powermenu</b><br>
+<b>Rofi Powermenu</b><br><br>
 <img src="images/rofi-powermenu.png" width="50%">
 </td>
 </tr>
