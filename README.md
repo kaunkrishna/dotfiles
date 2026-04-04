@@ -16,36 +16,38 @@
 
 ## Styles
 
-<p align="center">
-  <span style="display:inline-block; width:45%; text-align:center;">
-    <b>Desktop</b><br>
-    <img src="images/main-desktop.png" width="100%">
-  </span>
+<table align="center">
+<tr>
+<td align="center" width="50%">
+<b>Desktop</b><br>
+<img src="images/main-desktop.png">
+</td>
 
-  <span style="display:inline-block; width:45%; text-align:center;">
-    <b>Rofi Launcher</b><br>
-    <img src="images/rofi-launcher.png" width="100%">
-  </span>
-</p>
+<td align="center" width="50%">
+<b>Rofi Launcher</b><br>
+<img src="images/rofi-launcher.png">
+</td>
+</tr>
 
-<p align="center">
-  <span style="display:inline-block; width:45%; text-align:center;">
-    <b>Hyprlock Lockscreen</b><br>
-    <img src="images/hyprlock-lockscreen.png" width="100%">
-  </span>
+<tr>
+<td align="center">
+<b>Hyprlock Lockscreen</b><br>
+<img src="images/hyprlock-lockscreen.png">
+</td>
 
-  <span style="display:inline-block; width:45%; text-align:center;">
-    <b>SwayNC Notifications</b><br>
-    <img src="images/swaync-notifications.png" width="100%">
-  </span>
-</p>
+<td align="center">
+<b>SwayNC Notifications</b><br>
+<img src="images/swaync-notifications.png">
+</td>
+</tr>
 
-<p align="center">
-  <span style="display:inline-block; width:45%; text-align:center;">
-    <b>Rofi Powermenu</b><br>
-    <img src="images/rofi-powermenu.png" width="100%">
-  </span>
-</p>
+<tr>
+<td align="center" colspan="2">
+<b>Rofi Powermenu</b><br>
+<img src="images/rofi-powermenu.png" width="50%">
+</td>
+</tr>
+</table>
 
 ---
 
