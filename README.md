@@ -35,7 +35,7 @@ Here is a breakdown of the apps and tools I've actually tweaked in this repo. Yo
 
 1. Clone this repository to your machine: 
    ```bash
-   git clone https://github.com/kaunkrishna/dotfiles.git 
+   git clone https://github.com/kaunkrishna/dotfiles
    ```
 2. **Back up your existing configs!** Seriously, don't overwrite your own stuff without a backup.
 3. Symlink or copy the folders you want from here into your `~/.config/` directory.
