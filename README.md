@@ -76,7 +76,7 @@ Make sure these are installed:
 * **wl-clipboard** (Wayland clipboard tools)
 * **cliphist** (clipboard history)
 
-```bash id="s8k2qf"
+```bash
 sudo pacman -S --needed hyprland kitty waybar rofi swaync swww wl-clipboard cliphist
 ```
 
@@ -87,7 +87,7 @@ sudo pacman -S --needed hyprland kitty waybar rofi swaync swww wl-clipboard clip
 * **Adwaita Sans** → system UI
 * **JetBrains Mono Nerd Font** → terminal + icons
 
-```bash id="x2m8dl"
+```bash
 sudo pacman -S --needed ttf-jetbrains-mono ttf-adwaita
 ```
 
@@ -97,31 +97,33 @@ sudo pacman -S --needed ttf-jetbrains-mono ttf-adwaita
 
 ### 1. Clone
 
-```bash id="m1p9zx"
+```bash
 git clone https://github.com/kaunkrishna/dotfiles
 cd dotfiles
 ```
 
-### 2. Backup
+### 2. Backup existing config
 
-```bash id="d2s7qp"
+```bash
 mv ~/.config ~/.config-backup
 ```
 
 ### 3. Apply configs
 
-```bash id="g7k3zn"
-cp -r * ~/.config/
+```bash
+cp -r .config/* ~/.config/
 ```
 
 ### 4. Restart session
+
+Log out and log back in to apply changes.
 
 ---
 
 ## Notes
 
 * Built for Arch + Hyprland
-* May break on other setups
+* May not work on other setups
 * Read configs before using
 
 ---
