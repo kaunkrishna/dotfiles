@@ -1,7 +1,7 @@
 # KAUN's Dotfiles
 
 <p align="center">
-  <b>Arch Linux • Hyprland • Minimal Rice</b>
+  <b>Arch Linux • Hyprland</b>
 </p>
 
 <p align="center">
