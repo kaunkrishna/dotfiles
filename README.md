@@ -51,6 +51,24 @@
 
 ---
 
+## Wallpapers
+
+<table align="center">
+<tr>
+<td align="center" width="50%">
+<b>Pink Wallpaper</b><br><br>
+<img src="wallpapers/pink.png">
+</td>
+
+<td align="center" width="50%">
+<b>Purple Wallpaper</b><br><br>
+<img src="wallpapers/.purple.png">
+</td>
+</tr>
+</table>
+
+---
+
 ## System Info
 
 * **OS:** Arch Linux
@@ -70,7 +88,7 @@ Make sure these are installed:
 * **Hyprland** (window manager)
 * **Kitty** (terminal emulator)
 * **Waybar** (status bar)
-* **Rofi** (application launcher)
+* **Rofi** (application launcher, powermenu, and clipboard)
 * **SwayNC** (notification daemon)
 * **awww** (wallpaper manager)
 * **wl-clipboard** (Wayland clipboard tools)
@@ -85,10 +103,15 @@ sudo pacman -S --needed hyprland kitty waybar rofi swaync swww wl-clipboard clip
 ## Fonts
 
 * **Adwaita Sans** → system UI
-* **JetBrains Mono Nerd Font** → terminal + icons
+* **JetBrains Mono Nerd Font** → terminal + icons (any nerd font is must fot the icons)
+* **ttf-apple-emoji** → Emojis (you can use any eomji font)
 
 ```bash
 sudo pacman -S --needed ttf-jetbrains-mono ttf-adwaita
+```
+
+```bash
+yay -S ttf-apple-emoji
 ```
 
 ---
