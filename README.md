@@ -62,7 +62,7 @@
 
 <td align="center" width="50%">
 <b>Purple Wallpaper</b><br><br>
-<img src="wallpapers/.purple.png">
+<img src="wallpapers/purple.png">
 </td>
 </tr>
 </table>
