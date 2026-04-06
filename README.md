@@ -151,10 +151,6 @@ Log out and log back in to apply changes.
 
 ---
 
-## Support
-
-Star the repo if you like it ⭐
-
 <p align="center">
   <i>rice > everything</i>
 </p>
