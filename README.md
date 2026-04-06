@@ -14,7 +14,7 @@
 
 ---
 
-## Styles
+## Images
 
 <table align="center">
 <tr>
