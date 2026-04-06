@@ -149,8 +149,6 @@ Log out and log back in to apply changes.
 * May not work on other setups
 * Read configs before using
 
----
-
 <p align="center">
   <i>rice > everything</i>
 </p>
