@@ -88,7 +88,7 @@ Make sure these are installed:
 * **Hyprland** (window manager)
 * **Kitty** (terminal emulator)
 * **Waybar** (status bar)
-* **Rofi** (application launcher, powermenu, and clipboard)
+* **Rofi** (application launcher, powermenu, and clipboard interface)
 * **SwayNC** (notification daemon)
 * **awww** (wallpaper manager)
 * **wl-clipboard** (Wayland clipboard tools)
@@ -104,7 +104,7 @@ sudo pacman -S --needed hyprland kitty waybar rofi swaync swww wl-clipboard clip
 
 * **Adwaita Sans** → system UI
 * **JetBrains Mono Nerd Font** → terminal + icons (any nerd font is must fot the icons)
-* **ttf-apple-emoji** → Emojis (you can use any eomji font)
+* **ttf-apple-emoji** → Emojis (you can use any emoji font)
 
 ```bash
 sudo pacman -S --needed ttf-jetbrains-mono ttf-adwaita
