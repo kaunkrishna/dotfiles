@@ -23,7 +23,6 @@
 <img src="images/main-desktop.png">
 </td>
 
-<tr>
 <td align="center">
 <b>Hyprlock Lockscreen</b><br>
 <img src="images/hyprlock-lockscreen.png">
@@ -35,7 +34,6 @@
 <b>Rofi Launcher</b><br>
 <img src="images/rofi-launcher.png">
 </td>
-</tr>
 
 <td align="center">
 <b>SwayNC Notifications</b><br>
