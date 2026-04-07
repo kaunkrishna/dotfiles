@@ -47,7 +47,7 @@ tooltip label {
 }
 
 #workspaces button.active {
-    background-color: #f5b1e5;
+    background-color: @pink;
     color: @crust;
     min-width: 50px;
     transition: all 0.3s ease-in-out;
@@ -74,10 +74,11 @@ tooltip label {
     background-size: 400% 400%;
 }
 
-#battery,
+#custom-arch,
+#clock,
 #pulseaudio,
 #network,
-#clock,
+#battery,
 #custom-notification {
     background-color: @base;
     padding: 0 15px 0 15px;
@@ -90,11 +91,6 @@ tooltip label {
     color: @text;
 }
 
-#custom-notification {
-    color: @text;
-    margin: 0 12px;
-}
-
 #pulseaudio {
     color: @text;
 }
@@ -105,4 +101,9 @@ tooltip label {
 
 #battery {
     color: @text;
+}
+
+#custom-notification {
+    color: @text;
+    margin: 0 12px;
 }
