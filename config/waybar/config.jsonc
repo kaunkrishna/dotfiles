@@ -40,17 +40,9 @@
     "pulseaudio": {
         "format": "{volume}%   {icon}",
         "format-bluetooth": "{volume}%   {icon}",
-        "format-muted": "",
+        "format-muted": "",
         "format-icons": {
-            "alsa_output.pci-0000_00_1f.3.analog-stereo": "",
-            "alsa_output.pci-0000_00_1f.3.analog-stereo-muted": "",
             "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "phone-muted": "",
-            "portable": "",
-            "car": "",
             "default": [
                 "",
                 ""
@@ -64,7 +56,7 @@
     },
 
     "network": {
-        "interface": "wlo1",
+        "interface": "wlan0",
         "format": "{ifname}",
         "format-wifi": "{essid}   ",
         "format-ethernet": "{ipaddr}/{cidr} 󰊗",
@@ -99,13 +91,13 @@
         "format": "<span size='13pt'>{icon}</span>",
         "format-icons": {
             "notification": "󱅫",
-            "none": "󰂜",
+            "none": "󰂚",
             "dnd-notification": "󰂠",
-            "dnd-none": "󰪓",
+            "dnd-none": "󰂠",
             "inhibited-notification": "󰂛",
-            "inhibited-none": "󰪑",
+            "inhibited-none": "󰂛",
             "dnd-inhibited-notification": "󰂛",
-            "dnd-inhibited-none": "󰪑"
+            "dnd-inhibited-none": "󰂛"
         },
         "return-type": "json",
         "exec-if": "which swaync-client",
