@@ -23,17 +23,17 @@
 <img src="images/main-desktop.png">
 </td>
 
-<td align="center" width="50%">
-<b>Rofi Launcher</b><br>
-<img src="images/rofi-launcher.png">
-</td>
-</tr>
-
 <tr>
 <td align="center">
 <b>Hyprlock Lockscreen</b><br>
 <img src="images/hyprlock-lockscreen.png">
 </td>
+
+<td align="center" width="50%">
+<b>Rofi Launcher</b><br>
+<img src="images/rofi-launcher.png">
+</td>
+</tr>
 
 <td align="center">
 <b>SwayNC Notifications</b><br>
