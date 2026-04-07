@@ -37,14 +37,14 @@
 
 <td align="center">
 <b>Rofi Powermenu</b><br>
-<img src="images/rofi-powermenu.png" width="50%">
+<img src="images/rofi-powermenu.png">
 </td>
 </tr>
 
 <tr>
 <td align="center" colspan="2">
 <b>SwayNC Notifications</b><br>
-<img src="images/swaync-notifications.png">
+<img src="images/swaync-notifications.png" width="50%">
 </td>
 </tr>
 </table>
