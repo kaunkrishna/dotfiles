@@ -28,7 +28,9 @@
 <b>Hyprlock Lockscreen</b><br>
 <img src="images/hyprlock-lockscreen.png">
 </td>
+</tr>
 
+<tr>
 <td align="center" width="50%">
 <b>Rofi Launcher</b><br>
 <img src="images/rofi-launcher.png">
