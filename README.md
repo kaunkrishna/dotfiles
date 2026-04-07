@@ -35,16 +35,16 @@
 <img src="images/rofi-launcher.png">
 </td>
 
-<td align="center">
-<b>SwayNC Notifications</b><br>
-<img src="images/swaync-notifications.png">
+<td align="center" colspan="2">
+<b>Rofi Powermenu</b><br>
+<img src="images/rofi-powermenu.png" width="50%">
 </td>
 </tr>
 
 <tr>
-<td align="center" colspan="2">
-<b>Rofi Powermenu</b><br>
-<img src="images/rofi-powermenu.png" width="50%">
+<td align="center">
+<b>SwayNC Notifications</b><br>
+<img src="images/swaync-notifications.png">
 </td>
 </tr>
 </table>
