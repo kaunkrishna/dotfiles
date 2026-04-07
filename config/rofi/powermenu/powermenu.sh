@@ -1,22 +1,21 @@
 #!/usr/bin/env bash
 
 ## Author : Aditya Shakya (adi1090x)
-## Github : @adi1090x
-## Rofi   : Power Menu
+## Modified for Hyprland
 
 # Current Theme
 dir="$HOME/.config/rofi/powermenu/"
 theme='style'
 
 # CMDs
-uptime="`uptime -p | sed -e 's/up //g'`"
-host=`hostname`
+uptime="$(uptime -p | sed -e 's/up //g')"
+host="$(hostname)"
 
 # Options
 shutdown=''
 reboot=''
 lock=''
-suspend=''
+suspend='󰤄'
 logout=''
 yes=''
 no=''
@@ -47,37 +46,29 @@ confirm_exit() {
 	echo -e "$yes\n$no" | confirm_cmd
 }
 
-# Pass variables to rofi dmenu
+# Show menu
 run_rofi() {
 	echo -e "$lock\n$suspend\n$logout\n$reboot\n$shutdown" | rofi_cmd
-	# echo -e "$lock\n$logout\n$reboot\n$shutdown" | rofi_cmd
 }
 
 # Execute Command
 run_cmd() {
 	selected="$(confirm_exit)"
 	if [[ "$selected" == "$yes" ]]; then
-		if [[ $1 == '--shutdown' ]]; then
-			systemctl poweroff
-		elif [[ $1 == '--reboot' ]]; then
-			systemctl reboot
-		elif [[ $1 == '--suspend' ]]; then
-			mpc -q pause
-			amixer set Master mute
-			systemctl suspend
-		elif [[ $1 == '--logout' ]]; then
-			if [[ "$DESKTOP_SESSION" == 'openbox' ]]; then
-				openbox --exit
-			elif [[ "$DESKTOP_SESSION" == 'bspwm' ]]; then
-				bspc quit
-			elif [[ "$DESKTOP_SESSION" == 'i3' ]]; then
-				i3-msg exit
-			elif [[ "$DESKTOP_SESSION" == 'plasma' ]]; then
-				qdbus org.kde.ksmserver /KSMServer logout 0 0 0
-			elif [[ "$DESKTOP_SESSION" == 'Hyprland' ]]; then
+		case "$1" in
+			--shutdown)
+				systemctl poweroff
+				;;
+			--reboot)
+				systemctl reboot
+				;;
+			--suspend)
+				systemctl suspend
+				;;
+			--logout)
 				hyprctl dispatch exit
-			fi
-		fi
+				;;
+		esac
 	else
 		exit 0
 	fi
@@ -85,7 +76,7 @@ run_cmd() {
 
 # Actions
 chosen="$(run_rofi)"
-case ${chosen} in
+case "$chosen" in
     $shutdown)
         run_cmd --shutdown
         ;;
@@ -93,9 +84,7 @@ case ${chosen} in
         run_cmd --reboot
         ;;
     $lock)
-        if [[ -x '/usr/bin/hyprlock' ]]; then
-            hyprlock
-        fi
+        hyprlock
         ;;
     $suspend)
         run_cmd --suspend
