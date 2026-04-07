@@ -1,4 +1,4 @@
-# KAUN's Dotfiles
+# KAUN-FIGS (CONFIGS)
 
 <p align="center">
   <b>Arch Linux • Hyprland</b>
