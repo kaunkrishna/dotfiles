@@ -104,7 +104,7 @@ sudo pacman -S --needed hyprland kitty waybar rofi swaync awww wl-clipboard clip
 ## Fonts
 
 * **Adwaita Sans** → system UI
-* **JetBrains Mono Nerd Font** → terminal + icons (any nerd font is must fot the icons)
+* **JetBrains Mono Nerd Font** → terminal + icons (any nerd font is must for the icons)
 * **ttf-apple-emoji** → Emojis (you can use any emoji font)
 
 ```bash
