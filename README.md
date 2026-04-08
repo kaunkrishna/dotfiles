@@ -93,7 +93,7 @@ Make sure these are installed:
 * **awww** (wallpaper manager)
 * **wl-clipboard** (Wayland clipboard tools)
 * **cliphist** (clipboard history)
-* * **xdg-desktop-portal-hyprland** (required for screen sharing on Wayland, install if you use screen sharing)
+* **xdg-desktop-portal-hyprland** (required for screen sharing on Wayland, install if you use screen sharing)
 
 ```bash
 sudo pacman -S --needed hyprland kitty waybar rofi swaync awww wl-clipboard cliphist xdg-desktop-portal-hyprland
