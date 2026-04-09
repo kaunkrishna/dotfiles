@@ -51,24 +51,6 @@
 
 ---
 
-## Wallpapers
-
-<table align="center">
-<tr>
-<td align="center" width="50%">
-<b>Pink Wallpaper</b><br>
-<img src="wallpapers/pink.png">
-</td>
-
-<td align="center" width="50%">
-<b>Purple Wallpaper</b><br>
-<img src="wallpapers/purple.png">
-</td>
-</tr>
-</table>
-
----
-
 ## System Info
 
 * **OS:** Arch Linux
