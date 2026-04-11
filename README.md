@@ -1,7 +1,4 @@
 # ⚠️ CURRENTLY INTEGRATING MATUGEN TO THE SETUP!
-
----
-
 # KAUN-FIGS (CONFIGS)
 
 <p align="center">
