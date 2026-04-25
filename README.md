@@ -1,5 +1,4 @@
-# ⚠️ CURRENTLY INTEGRATING MATUGEN TO THE SETUP!
-# KAUN-FIGS (CONFIGS)
+# KAUN-FIGS (CONFIGS) - MATUGEN V1
 
 <p align="center">
   <b>Arch Linux • Hyprland</b>
@@ -8,49 +7,6 @@
 <p align="center">
   <i>Making it worse before it gets better.</i>
 </p>
-
-<p align="center">
-  <img src="images/main-desktop.png" width="80%">
-</p>
-
----
-
-## Images
-
-<table align="center">
-<tr>
-<td align="center" width="50%">
-<b>Desktop</b><br>
-<img src="images/main-desktop.png">
-</td>
-
-<td align="center">
-<b>Hyprlock Lockscreen</b><br>
-<img src="images/hyprlock-lockscreen.png">
-</td>
-</tr>
-
-<tr>
-<td align="center" width="50%">
-<b>Rofi Launcher</b><br>
-<img src="images/rofi-launcher.png">
-</td>
-
-<td align="center">
-<b>Rofi Powermenu</b><br>
-<img src="images/rofi-powermenu.png">
-</td>
-</tr>
-
-<tr>
-<td align="center" colspan="2">
-<b>SwayNC Notifications</b><br>
-<img src="images/swaync-notifications.png" width="50%">
-</td>
-</tr>
-</table>
-
----
 
 ## System Info
 
