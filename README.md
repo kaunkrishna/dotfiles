@@ -23,17 +23,13 @@ Make sure these core packages and utilities are installed:
 * **SwayNC** — Notification daemon
 * **Matugen** — Material UI colors generated from wallpapers
 * **Neovim** — Terminal IDE
-* **awww / swww** — Wallpaper manager
+* **awww** — Wallpaper manager
 * **wl-clipboard** — Wayland clipboard tools
 * **cliphist** — Clipboard history
 * **xdg-desktop-portal-hyprland** — Required for screen sharing on Wayland
 
-### Official Arch Repositories
-sudo pacman -S --needed hyprland kitty waybar rofi-wayland swaync neovim wl-clipboard cliphist xdg-desktop-portal-hyprland
-
-### AUR Packages
-*Note: You will need an AUR helper like yay or paru.*
-yay -S --needed matugen-bin awww
+# Install core dependencies from Arch Repositories
+`sudo pacman -S --needed hyprland kitty waybar rofi-wayland swaync matugen neovim awww wl-clipboard cliphist xdg-desktop-portal-hyprland`
 
 ---
 
@@ -44,19 +40,28 @@ yay -S --needed matugen-bin awww
 * **Apple Emoji** → Emojis *(You can substitute this with any emoji font)*
 
 # Install core fonts
-sudo pacman -S --needed ttf-jetbrains-mono-nerd ttf-adwaita-sans
+`sudo pacman -S --needed ttf-jetbrains-mono-nerd ttf-adwaita-sans`
 
 # Install emojis from the AUR
-*Note: You will need an AUR helper like yay or paru.*
-yay -S ttf-apple-emoji
+`yay -S ttf-apple-emoji`
 
 ---
 
-## Get Started
+## Installation
 
-### Clone the Repository
+### 1. Clone the Repository
 git clone https://github.com/kaunkrishna/dotfiles
 cd dotfiles
+
+### 2. Backup Existing Configs
+Don't overwrite your current setup without a backup!
+mv ~/.config ~/.config-backup
+
+### 3. Apply the New Configs
+cp -r .config/* ~/.config/
+
+### 4. Restart Your Session
+Log out of Hyprland and log back in to apply all the changes and reload the daemons.
 
 ---
 
