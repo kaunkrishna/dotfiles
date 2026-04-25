@@ -1,6 +1,8 @@
 # KAUN-FIGS (CONFIGS) - MATUGEN V1
 
-## Dependencies
+---
+
+### Dependencies
 
 * **Hyprland** — Window manager
 * **Kitty** — Terminal emulator
