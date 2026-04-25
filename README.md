@@ -36,7 +36,6 @@ yay -S ttf-apple-emoji
 
 ### Get Started
 
-Clone the Repository
 ```bash
 git clone [https://github.com/kaunkrishna/dotfiles](https://github.com/kaunkrishna/dotfiles)
 cd dotfiles
