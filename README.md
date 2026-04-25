@@ -1,9 +1,4 @@
 # KAUN-FIGS (CONFIGS) - MATUGEN V1
-## Arch Linux • Hyprland
-
-<p align="center">
-  <i>Making it worse before it gets better.</i>
-</p>
 
 ## System Info
 
@@ -12,80 +7,60 @@
 * **Terminal:** Kitty
 * **Shell:** Zsh
 * **Bar:** Waybar
-* **Launcher:** Rofi
+* **Launcher:** Rofi (Wayland fork)
 * **Notifications:** SwayNC
 
 ---
 
 ## Dependencies
 
-Make sure these are installed:
+Make sure these core packages and utilities are installed:
 
-* **Hyprland** (window manager)
-* **Kitty** (terminal emulator)
-* **Waybar** (status bar)
-* **Rofi** (application launcher, powermenu, and clipboard interface)
-* **SwayNC** (notification daemon)
-* **awww** (wallpaper manager)
-* **wl-clipboard** (Wayland clipboard tools)
-* **cliphist** (clipboard history)
-* **xdg-desktop-portal-hyprland** (required for screen sharing on Wayland, install if you use screen sharing)
+* **Hyprland** — Window manager
+* **Kitty** — Terminal emulator
+* **Waybar** — Status bar
+* **Rofi (Wayland)** — Application launcher, powermenu, and clipboard interface
+* **SwayNC** — Notification daemon
+* **Matugen** — Material UI colors generated from wallpapers
+* **Neovim** — Terminal IDE
+* **awww / swww** — Wallpaper manager
+* **wl-clipboard** — Wayland clipboard tools
+* **cliphist** — Clipboard history
+* **xdg-desktop-portal-hyprland** — Required for screen sharing on Wayland
 
-```bash
-sudo pacman -S --needed hyprland kitty waybar rofi swaync awww wl-clipboard cliphist xdg-desktop-portal-hyprland
-```
+### Official Arch Repositories
+sudo pacman -S --needed hyprland kitty waybar rofi-wayland swaync neovim wl-clipboard cliphist xdg-desktop-portal-hyprland
+
+### AUR Packages
+*Note: You will need an AUR helper like yay or paru.*
+yay -S --needed matugen-bin awww
 
 ---
 
 ## Fonts
 
-* **Adwaita Sans** → system UI
-* **JetBrains Mono Nerd Font** → terminal + icons (any nerd font is must for the icons)
-* **ttf-apple-emoji** → Emojis (you can use any emoji font)
+* **Adwaita Sans** → System UI
+* **JetBrains Mono Nerd Font** → Terminal + Icons *(A Nerd Font is strictly required for the icons to render!)*
+* **Apple Emoji** → Emojis *(You can substitute this with any emoji font)*
 
-```bash
-sudo pacman -S --needed ttf-jetbrains-mono ttf-adwaita
-```
+# Install core fonts
+sudo pacman -S --needed ttf-jetbrains-mono-nerd ttf-adwaita-sans
 
-```bash
+# Install emojis from the AUR
+*Note: You will need an AUR helper like yay or paru.*
 yay -S ttf-apple-emoji
-```
 
 ---
 
-## Installation
+## Get Started
 
-### 1. Clone
-
-```bash
+### Clone the Repository
 git clone https://github.com/kaunkrishna/dotfiles
 cd dotfiles
-```
-
-### 2. Backup existing config
-
-```bash
-mv ~/.config ~/.config-backup
-```
-
-### 3. Apply configs
-
-```bash
-cp -r .config/* ~/.config/
-```
-
-### 4. Restart session
-
-Log out and log back in to apply changes.
 
 ---
 
-## Notes
-
-* Built for Arch + Hyprland
-* May not work on other setups
-* Read configs before using
-
+<br>
 <p align="center">
-  <i>rice > everything</i>
+  <i>Making it worse before it gets better.</i>
 </p>
