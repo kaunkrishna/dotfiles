@@ -28,8 +28,10 @@ Make sure these core packages and utilities are installed:
 * **cliphist** — Clipboard history
 * **xdg-desktop-portal-hyprland** — Required for screen sharing on Wayland
 
-# Install core dependencies from Arch Repositories
-`sudo pacman -S --needed hyprland kitty waybar rofi-wayland swaync matugen neovim awww wl-clipboard cliphist xdg-desktop-portal-hyprland`
+### Install Core Dependencies
+```bash
+sudo pacman -S --needed hyprland kitty waybar rofi-wayland swaync matugen neovim awww wl-clipboard cliphist xdg-desktop-portal-hyprland
+```
 
 ---
 
@@ -39,30 +41,23 @@ Make sure these core packages and utilities are installed:
 * **JetBrains Mono Nerd Font** → Terminal + Icons *(A Nerd Font is strictly required for the icons to render!)*
 * **Apple Emoji** → Emojis *(You can substitute this with any emoji font)*
 
-# Install core fonts
-`sudo pacman -S --needed ttf-jetbrains-mono-nerd ttf-adwaita-sans`
-
-# Install emojis from the AUR
-`yay -S ttf-apple-emoji`
+### Install Fonts
+```bash
+sudo pacman -S --needed ttf-jetbrains-mono-nerd ttf-adwaita-sans
+yay -S ttf-apple-emoji
+```
 
 ---
 
-## Installation
+## Get Started
 
 ### 1. Clone the Repository
-git clone https://github.com/kaunkrishna/dotfiles
+```bash
+git clone [https://github.com/kaunkrishna/dotfiles](https://github.com/kaunkrishna/dotfiles)
 cd dotfiles
+```
 
-### 2. Backup Existing Configs
-Don't overwrite your current setup without a backup!
-mv ~/.config ~/.config-backup
-
-### 3. Apply the New Configs
-cp -r .config/* ~/.config/
-
-### 4. Restart Your Session
-Log out of Hyprland and log back in to apply all the changes and reload the daemons.
-
+### 2. Do what ever the fuck you wanna do!
 ---
 
 <br>
