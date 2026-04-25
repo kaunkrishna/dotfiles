@@ -38,7 +38,7 @@ yay -S ttf-apple-emoji
 git clone [https://github.com/kaunkrishna/dotfiles](https://github.com/kaunkrishna/dotfiles)
 cd dotfiles
 ```
----
+
 <br>
 <p align="center">
   <i>Making it worse before it gets better.</i>
