@@ -1,8 +1,5 @@
 # KAUN-FIGS (CONFIGS) - MATUGEN V1
-
-<p align="center">
-##<b>Arch Linux • Hyprland</b>
-</p>
+## Arch Linux • Hyprland
 
 <p align="center">
   <i>Making it worse before it gets better.</i>
