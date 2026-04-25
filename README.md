@@ -1,6 +1,5 @@
 # KAUN-FIGS (CONFIGS) - MATUGEN V1
 
-
 ## Dependencies
 
 * **Hyprland** — Window manager
@@ -15,12 +14,9 @@
 * **cliphist** — Clipboard history
 * **xdg-desktop-portal-hyprland** — Required for screen sharing on Wayland
 
-#### Install Core Dependencies
 ```bash
 sudo pacman -S --needed hyprland kitty waybar rofi-wayland swaync matugen neovim awww wl-clipboard cliphist xdg-desktop-portal-hyprland
 ```
-
----
 
 ### Fonts
 
@@ -28,7 +24,6 @@ sudo pacman -S --needed hyprland kitty waybar rofi-wayland swaync matugen neovim
 * **JetBrains Mono Nerd Font** → Terminal + Icons *(A Nerd Font is strictly required for the icons to render!)*
 * **Apple Emoji** → Emojis *(You can substitute this with any emoji font)*
 
-#### Install Fonts
 ```bash
 sudo pacman -S --needed ttf-jetbrains-mono-nerd ttf-adwaita-sans
 yay -S ttf-apple-emoji
@@ -38,7 +33,7 @@ yay -S ttf-apple-emoji
 
 ## Get Started
 
-### 1. Clone the Repository
+#### Clone the Repository
 ```bash
 git clone [https://github.com/kaunkrishna/dotfiles](https://github.com/kaunkrishna/dotfiles)
 cd dotfiles
