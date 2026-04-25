@@ -29,9 +29,7 @@ sudo pacman -S --needed ttf-jetbrains-mono-nerd ttf-adwaita-sans
 yay -S ttf-apple-emoji
 ```
 
----
-
-## Get Started
+### Get Started
 
 #### Clone the Repository
 ```bash
