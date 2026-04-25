@@ -1,0 +1,35 @@
+[config]
+default_type = "image"
+
+[config.wallpaper]
+command = "awww img --transition-type center  --transition-step 15 --transition-fps 60 {{ image }}"
+set = true
+
+[templates.hyprland]
+input_path = "~/.config/matugen/templates/hyprland-colors.conf"
+output_path = "~/.config/hypr/colors.conf"
+post_command =  "hyprctl reload"
+
+[templates.waybar]
+input_path = "~/.config/matugen/templates/colors.css"
+output_path = "~/.config/waybar/colors/colors.css"
+post_hook = "pkill -SIGUSR2 waybar"
+
+[templates.pywalfox]
+input_path = "~/.config/matugen/templates/pywalfox-colors.json"
+output_path = "~/.cache/wal/colors.json"
+post_hook = "pywalfox update"
+
+[templates.rofi]
+input_path = "~/.config/matugen/templates/rofi-colors.rasi"
+output_path = "~/.config/rofi/shared/colors.rasi"
+
+[templates.kitty]
+input_path = "~/.config/matugen/templates/kitty-colors.conf"
+output_path = "~/.config/kitty/themes/Matugen.conf"
+post_hook = "kitty +kitten themes --reload-in=all Matugen"
+
+[templates.swaync]
+input_path = "~/.config/matugen/templates/swaync-colors.css"
+output_path = "~/.config/swaync/colors/colors.css"
+post_hook = "swaync-client -rs"
