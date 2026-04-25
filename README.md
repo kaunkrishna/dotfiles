@@ -1,7 +1,7 @@
 # KAUN-FIGS (CONFIGS) - MATUGEN V1
 
 <p align="center">
-  <b>Arch Linux • Hyprland</b>
+##<b>Arch Linux • Hyprland</b>
 </p>
 
 <p align="center">
