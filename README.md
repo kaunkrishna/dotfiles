@@ -22,9 +22,9 @@ sudo pacman -S --needed hyprland kitty waybar rofi-wayland swaync matugen neovim
 
 ### Fonts
 
-* **Adwaita Sans** → System UI
-* **JetBrains Mono Nerd Font** → Terminal + Icons *(A Nerd Font is strictly required for the icons to render!)*
-* **Apple Emoji** → Emojis *(You can substitute this with any emoji font)*
+* **Adwaita Sans** — System UI
+* **JetBrains Mono Nerd Font** — Terminal + Icons *(A Nerd Font is strictly required for the icons to render!)*
+* **Apple Emoji** — Emojis *(You can substitute this with any emoji font)*
 
 ```bash
 sudo pacman -S --needed ttf-jetbrains-mono-nerd ttf-adwaita-sans
