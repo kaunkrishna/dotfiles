@@ -3,8 +3,8 @@
   "positionX": "right",
   "positionY": "top",
   "cssPriority": "user",
-  "control-center-width": 200,
-  "control-center-height": 460,
+  "control-center-width": 300,
+  "control-center-height": 500,
   "control-center-margin-top": 2,
   "control-center-margin-bottom": 2,
   "control-center-margin-right": 1,
@@ -16,7 +16,7 @@
   "timeout": 4,
   "timeout-low": 2,
   "timeout-critical": 6,
-  "text-empty": "All caught up!",
+  "text-empty": "Who the fuck is gonna\nmessage you anyway?",
   "fit-to-screen": false,
   "keyboard-shortcuts": true,
   "image-visibility": "when-available",
@@ -45,12 +45,12 @@
   ],
   "widget-config": {
     "title": {
-      "text": "Notifications",
+      "text": "Clear the nothingness",
       "clear-all-button": true,
       "button-text": " 󰎟 "
     },
     "dnd": {
-      "text": "Do not disturb"
+      "text": "Block imaginary friends"
     },
     "label": {
       "max-lines": 1,

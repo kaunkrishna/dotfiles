@@ -1,32 +1,25 @@
-@define-color text            @maintext;
-@define-color background-alt  @mantle;
-@define-color selected        #f5b1e5;
-@define-color hover           @lavender;
-@define-color urgent          @red;
-@define-color background      @base;
+@define-color text @on_surface;
+@define-color background-alt @surface_container_highest;
+@define-color selected @primary;
+@define-color hover @tertiary;
+@define-color urgent @error;
+@define-color background @surface;
 
 * {
-  color:            @text;
-
+  color: @text;
   all: unset;
   font-size: 14px;
-  font-family: "Adwaita Sans" "JetBrainsMono Nerd Font Propo";
+  font-family: "Adwaita Sans", "JetBrainsMono Nerd Font Propo";
   transition: 200ms;
-
 }
 
-/* Avoid 'annoying' backgroud */
-.blank-window {  
-  background: transparent;  
-}
-  
 /* CONTROL CENTER ------------------------------------------------------------------------ */
 
 .control-center {
   background: @background;
   border-radius: 10px;
-  border: 2px solid @crust;
-  box-shadow: 0 0 10px 0 rgba(0,0,0,.6);
+  border: 2px solid @outline_variant;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .6);
   margin: 18px;
   padding: 12px;
 }
@@ -35,7 +28,8 @@
 .control-center .notification-row .notification-background,
 .control-center .notification-row .notification-background .notification.critical {
   background-color: @background-alt;
-  border-radius: 16px;
+  border-radius: 10px;
+  border: 1px solid @surface_container_lowest;
   margin: 4px 0px;
   padding: 4px;
 }
@@ -49,22 +43,22 @@
   padding: 8px 6px 2px 2px;
 }
 
-.control-center .notification-row .notification-background .notification > *:last-child > * {
+.control-center .notification-row .notification-background .notification>*:last-child>* {
   min-height: 3.4em;
 }
 
-.control-center .notification-row .notification-background .notification > *:last-child > * .notification-action {
+.control-center .notification-row .notification-background .notification>*:last-child>* .notification-action {
   background: alpha(@selected, .6);
   color: @text;
   border-radius: 12px;
   margin: 6px;
 }
 
-.control-center .notification-row .notification-background .notification > *:last-child > * .notification-action:hover {
+.control-center .notification-row .notification-background .notification>*:last-child>* .notification-action:hover {
   background: @selected;
 }
 
-.control-center .notification-row .notification-background .notification > *:last-child > * .notification-action:active {
+.control-center .notification-row .notification-background .notification>*:last-child>* .notification-action:active {
   background-color: @selected;
 }
 
@@ -72,13 +66,13 @@
 
 .notification-group {
   margin: 2px 8px 2px 8px;
-
 }
+
 .notification-group-headers {
   font-weight: bold;
   font-size: 1.25rem;
   color: @text;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
 }
 
 .notification-group-icon {
@@ -87,9 +81,8 @@
 
 .notification-group-collapse-button,
 .notification-group-close-all-button {
-  background: transparent;
   color: @text;
-  margin: 4px; 
+  margin: 4px;
   border-radius: 6px;
   padding: 4px;
 }
@@ -97,7 +90,9 @@
 .notification-group-collapse-button:hover,
 .notification-group-close-all-button:hover {
   background: @hover;
-}  
+  color: @background-alt;
+  transition: none;
+}
 
 /* NOTIFICATIONS (EMPTY TEXT) */
 
@@ -112,7 +107,7 @@
 
 /* WIDGETS --------------------------------------------------------------------------- */
 
-  /* Notification clear button */
+/* Notification clear button */
 .widget-title {
   font-size: 1.2em;
   margin: 6px;
@@ -128,20 +123,22 @@
 
 .widget-title button:hover {
   background-color: @hover;
+  color: @background-alt;
+  transition: none;
 }
 
 .widget-title button:active {
   background-color: @selected;
 }
 
-  /* Do not disturb */
+/* Do not disturb */
 .widget-dnd {
   margin: 6px;
   font-size: 1.2rem;
   color: @text;
 }
 
-.widget-dnd > switch {
+.widget-dnd>switch {
   background: @background-alt;
   font-size: initial;
   border-radius: 8px;
@@ -149,76 +146,31 @@
   padding: 2px;
 }
 
-.widget-dnd > switch:hover {
+.widget-dnd>switch:hover {
   background: @hover;
 }
 
-.widget-dnd > switch:checked {
+.widget-dnd>switch:checked {
   background: @selected;
 }
 
-.widget-dnd > switch:checked:hover {
+.widget-dnd>switch:checked:hover {
   background: @hover;
 }
 
-.widget-dnd > switch slider {
+.widget-dnd>switch slider {
   background: @text;
   border-radius: 6px;
 }
 
-  /* Music player */
-.widget-mpris {
-    background: @background-alt;
-    border-radius: 16px;
-    color: @text;
-    margin:  20px 6px;
+.widget-dnd>switch:hover slider {
+  background: @background-alt;
 }
 
-  /* NOTE: Background need *opacity 1* otherwise will turn into the album art blurred  */
-.widget-mpris-player {
-    background-color: @background-sec;
-    border-radius: 22px;
-    padding: 10px 14px 6px 4px;
-    margin: 6px;
+.widget-dnd>switch:checked slider {
+  background: @background-alt;
 }
 
-.widget-mpris > box > button {
-  color: @text;
-  border-radius: 20px;
-}
- 
-.widget-mpris button {
-  color: @subtext0;
-}
-
-.widget-mpris button:hover {
-  color: @text;
-}
-
-.widget-mpris-album-art {
-  border-radius: 16px;
-}
- 
-.widget-mpris-title {
-    font-weight: 700;
-    font-size: 1rem;
-}
- 
-.widget-mpris-subtitle {
-    font-weight: 500;
-    font-size: 0.8rem;
-    padding-bottom: 10px;
-}
-
-picture.mpris-background {
-  opacity: 0;
-}
-
-/* Volume */
-.widget-volume {
-  background: @background-sec;
-  color: @background;
-  padding: 4px;
-  margin: 6px;
-  border-radius: 6px;
+.widget-dnd>switch:checked:hover slider {
+  background: @background-alt;
 }
