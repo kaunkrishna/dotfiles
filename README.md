@@ -1,6 +1,6 @@
 # KAUN-FIGS (CONFIGS) - MATUGEN V1
-
 <br>
+
 ### Dependencies
 
 * **Hyprland** — Window manager
@@ -18,8 +18,8 @@
 ```bash
 sudo pacman -S --needed hyprland kitty waybar rofi-wayland swaync matugen neovim awww wl-clipboard cliphist xdg-desktop-portal-hyprland
 ```
-
 <br>
+
 ### Fonts
 
 * **Adwaita Sans** → System UI
@@ -32,8 +32,8 @@ sudo pacman -S --needed ttf-jetbrains-mono-nerd ttf-adwaita-sans
 ```bash
 yay -S ttf-apple-emoji
 ```
-
 <br>
+
 ### Get Started
 
 #### Clone the Repository
