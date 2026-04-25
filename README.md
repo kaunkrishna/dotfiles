@@ -1,16 +1,5 @@
 # KAUN-FIGS (CONFIGS) - MATUGEN V1
 
-## System Info
-
-* **OS:** Arch Linux
-* **WM:** Hyprland
-* **Terminal:** Kitty
-* **Shell:** Zsh
-* **Bar:** Waybar
-* **Launcher:** Rofi (Wayland fork)
-* **Notifications:** SwayNC
-
----
 
 ## Dependencies
 
@@ -59,7 +48,6 @@ cd dotfiles
 
 ### 2. Do what ever the fuck you wanna do!
 ---
-
 <br>
 <p align="center">
   <i>Making it worse before it gets better.</i>
