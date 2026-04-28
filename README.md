@@ -1,4 +1,5 @@
 # KAUN-FIGS (CONFIGS) - MATUGEN V1
+
 <br>
 
 ### Dependencies
@@ -18,6 +19,7 @@
 ```bash
 sudo pacman -S --needed hyprland kitty waybar rofi-wayland swaync matugen neovim awww wl-clipboard cliphist xdg-desktop-portal-hyprland
 ```
+
 <br>
 
 ### Fonts
@@ -32,6 +34,7 @@ sudo pacman -S --needed ttf-jetbrains-mono-nerd ttf-adwaita-sans
 ```bash
 yay -S ttf-apple-emoji
 ```
+
 <br>
 
 ### Get Started
@@ -42,6 +45,7 @@ cd dotfiles
 ```
 
 <br>
+
 <p align="center">
   <i>Making it worse before it gets better.</i>
 </p>
