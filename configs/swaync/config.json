@@ -38,27 +38,22 @@
     }
   },
   "widgets": [
-    "_mpris_disabled",
-    "title",
     "dnd",
+    "title",
     "notifications"
   ],
   "widget-config": {
+    "dnd": {
+      "text": "Block imaginary friends"
+    },
     "title": {
       "text": "Clear the nothingness",
       "clear-all-button": true,
       "button-text": " 󰎟 "
     },
-    "dnd": {
-      "text": "Block imaginary friends"
-    },
     "label": {
       "max-lines": 1,
       "text": " "
-    },
-    "mpris": {
-      "image-size": 0,
-      "image-radius": 10
     }
   }
 }
