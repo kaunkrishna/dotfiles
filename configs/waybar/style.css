@@ -1,0 +1,116 @@
+@import url("./colors/colors.css");
+
+* {
+  border: none;
+  border-radius: 0;
+
+  font-family: "Adwaita Sans", "JetBrainsMono Nerd Font Propo", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+tooltip {
+  background: @on_secondary_fixed;
+  border-radius: 12px;
+}
+
+tooltip label {
+  color: @on_background;
+  padding: 6px;
+}
+
+#workspaces {
+  background-color: @on_secondary_fixed;
+  padding: 6px 6px;
+  margin: 0 0 0 12px;
+  border-radius: 50px;
+  color: @on_background;
+}
+
+#workspaces button {
+  padding: 1px 8px;
+  margin: 0px 3px;
+  border-radius: 50px;
+  color: transparent;
+  background-color: @surface_container_lowest;
+  transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active {
+  background-color: @primary;
+  color: @on_secondary_fixed;
+  min-width: 45px;
+  transition: all 0.3s ease-in-out;
+  font-size: 15px;
+}
+
+#workspaces button:hover {
+  background: @tertiary;
+  color: @on_secondary_fixed;
+  border-radius: 50px;
+  min-width: 45px;
+  background-size: 400% 400%;
+  text-shadow: none;
+  box-shadow: none;
+  -gtk-icon-effect: none;
+}
+
+#workspaces button.urgent {
+  background-color: @error;
+  color: @on_secondary_fixed;
+  border-radius: 50px;
+  min-width: 50px;
+  transition: all 0.3s ease-in-out;
+  background-size: 400% 400%;
+}
+
+#custom-arch,
+#clock,
+#pulseaudio,
+#network,
+#battery,
+#custom-caffeine,
+#custom-notification {
+  background-color: @on_secondary_fixed;
+  padding: 0 15px 0 15px;
+  margin: 0 0 0 12px;
+  border-radius: 50px;
+}
+
+#custom-arch {
+  font-size: 16px;
+}
+
+#clock {
+  color: @on_background;
+}
+
+#pulseaudio {
+  color: @on_background;
+}
+
+#network {
+  color: @on_background;
+}
+
+#battery {
+  color: @on_background;
+}
+
+#custom-caffeine {
+  color: @on_background;
+  font-size: 16px;
+}
+
+#custom-notification {
+  color: @on_background;
+  margin: 0 12px;
+}

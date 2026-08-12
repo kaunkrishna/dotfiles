@@ -1,0 +1,16 @@
+# Matugen generated files
+
+# Hyprland & Hyprlock
+config/hypr/colors/
+
+# Waybar
+config/waybar/colors/colors.css
+
+# Rofi
+config/rofi/shared/colors.rasi
+
+# Kitty
+config/kitty/themes/Matugen.conf
+
+# SwayNC
+config/swaync/colors/colors.css
